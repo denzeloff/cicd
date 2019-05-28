@@ -25,7 +25,7 @@ public class HomeController {
     }
     @PostMapping
     public Dog addDog() {
-        return dogRepo.save(new Dog(null, "Piesek"));
+        return dogRepo.save(new Dog(null, "Piesekaaaa"));
     }
 
 

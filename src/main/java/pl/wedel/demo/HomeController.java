@@ -11,6 +11,6 @@ public class HomeController
     @GetMapping
     public String hello()
     {
-        return "Hello world!";
+        return "Hello siema gościu!";
     }
 }
